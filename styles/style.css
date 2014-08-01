@@ -88,7 +88,7 @@ h2 {
 	position: relative;
 	margin: 0 auto;
 	top: 30%;
-	display: none;
+	
 }
 
 #second {
@@ -104,7 +104,7 @@ h2 {
 	text-align: center;
 	font-size: 1.2em;
 	top: 30%;
-	
+	display: none;
 }
 
 #third p {
@@ -138,7 +138,7 @@ h2 {
 .answer {
 	position: relative;
 	margin: 0 auto;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	font-weight: bold;
 	/*background-color:#392B47;*/
 	color: #140029;
