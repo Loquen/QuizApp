@@ -19,17 +19,28 @@
 	</header>
 	
 	<section class="game">
-		<h2 class="question">Are you ready?</h2>
+		<h2 class="question"><span class="number"></span>Are you ready?</h2>
 		<div class = "main">
 			<div id = "first">
 				<button class="start" name="start" title="Start!" >Start!</button>
 			</div>
 
 			<div id = "second">
-				<button class="answer">James Rodriguez</button>
-				<button class="answer">Tomas Mueller</button>
-				<button class="answer">Lionel Messi</button>
-				<button class="answer">Arjen Robben</button>
+				<button class="answer">A. <span id="a">James Rodriguez</span></button>
+				<button class="answer">B. <span id="b">Tomas Mueller</span></button>
+				<button class="answer">C. <span id="c"> Lionel Messi</span></button>
+				<button class="answer">D. <span id="d">Arjen Robben</span></button>
+			</div>
+
+			<div id = "third">
+				<p id="correct">Correct!</p>
+				<p><span class="number">1</span> out of 5 questions answered</p>
+				<button class="continue">Continue!</button>
+			</div>
+
+			<div id = "fourth">
+				<p id="final">Congrats!</p>
+				<p>You answered <span class="number">1</span> out of 5 questions correctly!</p>
 			</div>
 		</div>
 	</section>

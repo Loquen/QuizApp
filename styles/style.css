@@ -77,27 +77,62 @@ h2 {
 	margin: 0 auto;
 	font-size: 1.2em;
 	font-weight: bold;
-	/*background-color:#392B47;*/
 	color: #140029;
 	width: 220px;
 	height: 50px;
-	top: 30%;
 	left: 30%;
 	vertical-align: middle;	
-	display: none;
 }
-/*
+
 #first {
 	position: relative;
 	margin: 0 auto;
-	width: 600px;
-	height: 400px;
+	top: 30%;
+	display: none;
 }
-*/
+
 #second {
 	position: relative;
 	margin: 0 auto;
 	top: 15%;
+	display: none;
+}
+
+#third {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	top: 30%;
+	
+}
+
+#third p {
+	margin: 10px;
+}
+
+#fourth {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.2em;
+	top: 30%;
+	display: none;
+}
+
+#fourth p {
+	margin: 10px;
+}
+
+.continue {
+	position: relative;
+	margin: 0 auto;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #140029;
+	width: 220px;
+	height: 50px;
+	vertical-align: middle;	
 }
 
 .answer {
