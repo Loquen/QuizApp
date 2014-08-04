@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz App</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="styles/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css"/> 
+
+	<!-- JavaScript -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<header>
+		<h1>World Cup 2014: Brazil Quiz</h1>
+	</header>
+	
+	<section class="game">
+		<h2 class="question"><span class="number"></span>Are you ready?</h2>
+		<div class = "main">
+			<div id = "first">
+				<button class="start" name="start" title="Start!" >Start!</button>
+			</div>
+
+			<div id = "second">
+				<button class="answer">A. <span id="a">James Rodriguez</span></button>
+				<button class="answer">B. <span id="b">Tomas Mueller</span></button>
+				<button class="answer">C. <span id="c"> Lionel Messi</span></button>
+				<button class="answer">D. <span id="d">Arjen Robben</span></button>
+			</div>
+
+			<div id = "third">
+				<p id="correct">Correct!</p>
+				<p><span class="number">1</span> out of 5 questions answered</p>
+				<button class="continue">Continue!</button>
+			</div>
+
+			<div id = "fourth">
+				<p id="final">Congrats!</p>
+				<p>You answered <span class="number">1</span> out of 5 questions correctly!</p>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
